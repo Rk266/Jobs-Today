@@ -1,0 +1,258 @@
+</html>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JobsToday</title>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg nav_bg_color text-white">
+    <div class="container-fluid px-4 py-2">
+      <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav text-white">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">
+              <h6><i class="fal fa-search"></i>Find jobs </h6>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">
+              <h6><i class="fa-light fa-file-arrow-down"></i>Upload Resume </h6>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">
+              <h6>For employers | Pricing </h6>
+            </a>
+          </li>
+        </ul>
+        <div class="last-btn d-flex text-center">
+          <h5 class="nav-text">Registration</h5>
+          <button type="button" class="btn btn-outline-light login">Login</button>
+          <h5 class="nav-text">EN</h5>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container-fluid px-4">
+
+    <section id="registration" class=" justify-content-center my-5">
+      <div class="regi_head_text text-center pb-5">
+        <h1>REGISTRATION</h1>
+        <div class="headr_bottom_text">
+          <span class="text-secondary">Register & create your profile as Premium Jobseeker</span>
+        </div>
+      </div>
+      <div class="form-details">
+        <div class="toogel_post">
+          <a class="btn job_seeker text-primary" href="#">
+            <p>Become a Jobseeker</p>
+          </a>
+          <a class="btn adv_ser" href="#">
+            <p>Advertise Service</p>
+          </a>
+        </div>
+
+        <div class="form_circle">
+          <img src="/img/Web_icon/Icon.svg" alt="">
+        </div>
+
+        <div class="form_containt">
+          <div class="text-center">
+            <h3>Create your Jobstoday.world account</h3>
+
+            <div class="alr_login">
+              <p>Already have an account?</p>
+              <a class="btn loginbtn text-primary" href="#">
+                <p>Login now!</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="form_filds row">
+          <div class="fild col-lg-6">
+            <label for="">Email address *</label>
+            <input type="email" placeholder="Email address">
+
+            <br>
+
+            <label for="">First name *</label>
+            <input type="text" placeholder="First name">
+
+            <br>
+
+            <label for="">Nationality *</label>
+            <select class="form-select form-select-lg" aria-label=".form-select-lg example">
+              <option selected>Select nationality</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+
+            <br>
+
+            <label for="">City / Country *</label>
+            <input type="text" placeholder="City / Country">
+
+          </div>
+
+          <div class="fild col-lg-6">
+            <!-- <label for="">Password *</label>
+            <input type="password" placeholder="Password "> -->
+
+            <label for="password">Password*</label>
+            <input type="password" name="password" id="password" placeholder="Password" />
+            <i class="bi bi-eye-slash" id="togglePassword"></i>
+
+            <br>
+
+            <label for="">Last name *</label>
+            <input type="text" placeholder="Last name ">
+
+            <br>
+
+            <label for="">Work permit</label>
+            <input type="text" placeholder="Work permit">
+
+            <br>
+
+            <label for="">Phone number</label>
+            <input type="number" placeholder="Prefix - Phone number">
+
+          </div>
+
+          <div class="fild last_fild mt-4">
+            <label for="">Job title * <i class="fal fa-question-circle"></i></label>
+            <input type="text" placeholder="Job title">
+
+            <br>
+
+            <label for="">I am looking for a job... </label>
+            <!-- <input class="textarea" type="text" placeholder="Describe the job you’re looking for. For example: I am looking for a job as cook/warehouse worker/designer.            "> -->
+            <textarea name="" id=""
+              placeholder="Describe the job you’re looking for. For example: I am looking for a job as cook/warehouse worker/designer....."></textarea>
+          </div>
+          <div class="form-check mt-4">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              I have read and understood the<spna class="text-primary">Jobstoday Terms & Conditions, Privacy Policy
+              </spna> & <span class="text-primary"> GDPR</span>. By proceeding, I agree & accept the information &
+              conditions mentioned in these documents.
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+
+          <div class="base-btn mt-4">
+            <button class="cancel-btn btn-size">Cancel</button>
+            <button class="create-btn btn-size">Create Account</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section id="footer">
+    <div class="container-fluid">
+      <div class="footer-dtl">
+        <div class="footer-logo pb-3">
+          <a href="#"><img class="logo" src="img/logo.png" alt=""></a>
+        </div>
+        <div class="row text-white ft-left ps-3">
+          <div class="col-lg-2">
+            <h6>Rankings</h6>
+            <h6>Popular Jobs</h6>
+            <h6>Jobs by Industry</h6>
+            <h6>Jobs by Cities</h6>
+            <h6>Jobs by Salary</h6>
+          </div>
+
+          <div class="col-lg-2">
+            <h6>Product</h6>
+            <h6>For Employers</h6>
+            <h6>For Candidates</h6>
+            <h6>Pricing</h6>
+            <h6>Affiliate Program</h6>
+          </div>
+
+          <div class="col-lg-2">
+            <h6>Company</h6>
+            <h6>About Us</h6>
+            <h6>Blog</h6>
+            <h6>Join Us</h6>
+          </div>
+          <div class="col-lg-2">
+            <h6>Help </h6>
+            <h6>Privacy Policy</h6>
+            <h6>Terms & Conditions</h6>
+            <h6>Support</h6>
+          </div>
+          <div class="col-lg-4">
+            <h6>Follow us on:</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script>
+    const togglePassword = document.querySelector("#togglePassword");
+    const password = document.querySelector("#password");
+
+    togglePassword.addEventListener("click", function () {
+      // toggle the type attribute
+      const type = password.getAttribute("type") === "password" ? "text" : "password";
+      password.setAttribute("type", type);
+
+      // toggle the icon
+      this.classList.toggle("bi-eye");
+    });
+
+    // prevent form submit
+    const form = document.querySelector("form");
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+    });
+  </script>
+  <!-- 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+    integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
+    integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+body {
+    background: #E5E5E5;
+}
+
+/* Nav-bar section */
+.nav_bg_color {
+    background-color: #265CFF;
+}
+
+img.logo {
+    width: 215px;
+    height: 42px;
+}
+
+#navbarNav {
+    width: 100%;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    /* align-items: baseline; */
+}
+
+.last-btn .nav-text {
+    color: #77A2FF;
+}
+
+.last-btn {
+    /* border: 2px solid green; */
+    /* float: right; */
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: end;
+    align-items: baseline;
+    /* width: 100%; */
+    /* align-items: center; */
+}
+
+button.login {
+    padding: 7px 45px;
+    margin: 0 30px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* Registration form section */
+
+.form-details {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(25, 25, 29, 0.03), 0px 8px 16px rgba(25, 25, 29, 0.06);
+    border-radius: 12px;
+    width: 50%;
+    height: 1079px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.toogel_post {
+    width: 468px;
+    height: 64px;
+    /* border: 2px solid black; */
+    box-shadow: 0px 1.5px 3px rgba(25, 25, 29, 0.05), 0px 3px 6px rgba(25, 25, 29, 0.11);
+    border-radius: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.toogel_post p {
+    margin: 0;
+    padding: 0;
+    /* font-size: 14px;
+    font-weight: 600; */
+}
+
+.toogel_post .job_seeker {
+    padding: 14px 40px;
+    width: 215px;
+    height: 52px;
+    background: #BAD2FF;
+    /* Toggle */
+    box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06);
+    border-radius: 40px;
+}
+
+.form_circle {
+    margin: 32px 0;
+    text-align: center;
+}
+
+.alr_login {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 18px;
+}
+
+.alr_login p {
+    font-weight: 400px;
+}
+
+.alr_login .loginbtn {
+    padding: 11px 25px;
+    /* width: 215px; */
+    height: 52px;
+    background: #EBF1FF;
+    box-shadow: 0px 1.5px 3px rgba(25, 25, 29, 0.05), 0px 3px 6px rgba(25, 25, 29, 0.11);
+    border-radius: 12px;
+    margin-left: 16px;
+}
+
+div.fild label {
+    /* font-family: 'Clinica Pro'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #1B1E20;
+}
+
+div.fild input,
+select.form-select,
+textarea {
+    padding: 8px 16px 8px 12px;
+    /* background: #FFFFFF; */
+    border: 1px solid #DFE7F7;
+    border-radius: 12px;
+    gap: 10px;
+    width: 420px;
+    height: 40px;
+    display: flex;
+}
+
+/*  */
+.fild input::placeholder,
+select.form-select,
+textarea {
+    font-family: 'Clinica Pro' !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #7485A6 !important;
+}
+
+.bi-eye-slash::before {
+    content: "\f320";
+    margin-top: -28px;
+    float: right;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.last_fild input,
+textarea {
+    width: 100% !important;
+}
+
+textarea {
+    height: 88px;
+    resize: none;
+}
+
+textarea::-webkit-scrollbar {
+    width: 10px;
+    /* Mostly for vertical scrollbars */
+    height: 72px;
+    /* Mostly for horizontal scrollbars */
+}
+
+textarea::-webkit-scrollbar-thumb {
+    /* Foreground */
+    background: #DFE7F7;
+    border-radius: 12px;
+}
+
+.form-check {
+    padding-left: 40px;
+}
+
+.base-btn {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.base-btn .btn-size {
+    width: 420px;
+    height: 44px;
+    padding: 6px 16px;
+    border-radius: 12px;
+    border: none;
+}
+
+button.cancel-btn {
+    color: #265CFF;
+    background-color: #EBF1FF;
+}
+
+button.create-btn {
+    color: #FFFFFF;
+    background-color: #265CFF;
+}
+
+section#footer {
+    width: 100%;
+    height: 361px;
+    background: #08143E;
+}
+
+.footer-dtl {
+    padding-top: 46px;
+    padding-left: 211px;
+}
+
+.ft-left {
+    margin-left: 22px;
+}
